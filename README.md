@@ -1,7 +1,9 @@
 # Awesome-Cybersecurity-Datasets 
+> ⚠️ **The original repository was abandoned in 2021. This is the actively maintained fork by SystemHelpdesk. Pull Requests are welcome and reviewed weekly!**
+
 A curated list of amazingly awesome Cybersecurity datasets. 
 
-Please contribute to this list with new datasets by sending me a pull request or by contacting me at [@santiagohramos](https://twitter.com/santiagohramos?lang=es).
+Please contribute to this list with new datasets by sending me a pull request.
 
 Happy learning!
 
@@ -35,6 +37,7 @@ Happy learning!
 * [IoT devices captures](https://research.aalto.fi/en/datasets/iot-devices-captures(285a9b06-de31-4d8b-88e9-5bdba46cc161).html) - This dataset represents the traffic emitted during the setup of 31 smart home IoT devices of 27 different types (4 types are represented by 2 devices each). Each setup was repeated at least 20 times per device-type.
 
 ### Malware
+* [Malware Families Catalog](https://jordanricky1604-ship-it.github.io/malware-families-catalog/) - A massive catalog of 2,899 real-world malware families derived from the EMBER 2018 benchmark. Every family is categorized into 19 high-level threat types (Ransomware, InfoStealer, etc.) and mapped to MITRE ATT&CK tactics, with actionable incident response steps and dataset mirrors on Hugging Face, Kaggle, and Zenodo.
 * [UNSW-NB15 data set](https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/) - This data set has nine families of attacks, namely, Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode and Worms. The Argus, Bro-IDS tools are utilised and twelve algorithms are developed to generate totally 49 features with the class label.
 * [Malware Training Sets](https://marcoramilli.blogspot.com/2016/12/malware-training-sets-machine-learning.html) - Today (please refers to blog post date) the collected classified datasets is composed by the following samples: APT1 292 Samples, Crypto 2024 Samples, Locker 434 Samples, Zeus 2014 Samples
 * [The Drebin Dataset](https://www.sec.cs.tu-bs.de/~danarp/drebin/) - The dataset contains 5,560 applications from 179 different malware families. The samples have been collected in the period of August 2010 to October 2012 and were made available to us by the MobileSandbox project.
