@@ -6,3 +6,4 @@ baseurl: "/Awesome-Cybersecurity-Datasets"
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
