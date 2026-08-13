@@ -28,6 +28,7 @@ jobs:
         env:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_KEY }}
         run: |
           python kaggle_setup.py
           kaggle datasets create -p kaggle_export --dir-mode skip || kaggle datasets version -p kaggle_export -m "Automated update from GitHub Actions" --dir-mode skip
