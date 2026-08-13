@@ -1,0 +1,59 @@
+name: Submit a New Dataset
+description: Add a new awesome dataset to the 2026 Authoritative Fork
+title: "[Dataset]: <Dataset Name>"
+labels: ["dataset-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing to the actively maintained 2026 Awesome Cybersecurity Datasets repository! Please provide the details below so we can validate the link and add it to the Interactive Web App.
+  - type: input
+    id: dataset-name
+    attributes:
+      label: Dataset Name
+      description: The official name of the dataset.
+      placeholder: e.g. SOREL-20M
+    validations:
+      required: true
+  - type: input
+    id: dataset-url
+    attributes:
+      label: Dataset URL
+      description: A direct, working link to the dataset or its repository.
+      placeholder: https://github.com/...
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Select the most appropriate category for this dataset.
+      options:
+        - Network traffic
+        - Malware
+        - WebApps
+        - Software
+        - URLs & Domain Names
+        - Host
+        - Email
+        - Fraud
+        - Honeypots
+        - Binaries
+        - Phishing
+        - Passwords
+        - Generative AI & LLM Security
+        - Modern Malware Benchmarks
+        - Cloud & Container Security
+        - Software Supply Chain
+        - Governance, Risk, and Compliance (C-Suite)
+        - MISC
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a 1-2 sentence description of what the dataset contains and why it's useful for threat research.
+      placeholder: Describe the dataset...
+    validations:
+      required: true
