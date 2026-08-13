@@ -1,4 +1,10 @@
 # Awesome-Cybersecurity-Datasets 
+
+![Active Maintenance](https://img.shields.io/badge/Maintenance-Active-success)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Last Updated: 2026](https://img.shields.io/badge/Last%20Updated-2026-blue)
+
 > ⚠️ **The original repository was abandoned in 2021. This is the actively maintained fork by SystemHelpdesk. Pull Requests are welcome and reviewed weekly!**
 
 A curated list of amazingly awesome Cybersecurity datasets. 
@@ -8,6 +14,7 @@ Please contribute to this list with new datasets by sending me a pull request.
 Happy learning!
 
 ## Table of contents
+* [🏆 Maintainer's Choice](#-maintainers-choice-featured-dataset)
 * [Network traffic](#network-traffic)
 * [Malware](#malware)
 * [WebApps](#webapps)
@@ -29,6 +36,10 @@ Happy learning!
 
 
 
+
+## 🏆 Maintainer's Choice: Featured Dataset
+
+
 ## Datasets
 ### Network traffic
 * [Unified Host and Network Dataset](https://csr.lanl.gov/data/2017.html) - The Unified Host and Network Dataset is a subset of network and computer (host) events collected from the Los Alamos National Laboratory enterprise network over the course of approximately 90 days. The host event logs originated from most enterprise computers running the Microsoft Windows operating system on Los Alamos National Laboratory's (LANL) enterprise network. The network event data originated from many of the internal enterprise routers within the LANL enterprise network.
@@ -43,7 +54,6 @@ Happy learning!
 * [Project Sonar](https://github.com/rapid7/sonar/wiki/UDP) - Project Sonar produces multiple UDP datasets every month. This data is gathered by sending protocol-specific UDP probes across the entire IPv4 address space. The types of probes sent each week continues to expand as the project matures.
 
 ### Malware
-* [Malware Families Catalog](https://jordanricky1604-ship-it.github.io/malware-families-catalog/) - A massive catalog of 2,899 real-world malware families derived from the EMBER 2018 benchmark. Every family is categorized into 19 high-level threat types (Ransomware, InfoStealer, etc.) and mapped to MITRE ATT&CK tactics, with actionable incident response steps and dataset mirrors on Hugging Face, Kaggle, and Zenodo.
 * [UNSW-NB15 data set](https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/) - This data set has nine families of attacks, namely, Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode and Worms. The Argus, Bro-IDS tools are utilised and twelve algorithms are developed to generate totally 49 features with the class label.
 * [Malware Training Sets](https://marcoramilli.blogspot.com/2016/12/malware-training-sets-machine-learning.html) - Today (please refers to blog post date) the collected classified datasets is composed by the following samples: APT1 292 Samples, Crypto 2024 Samples, Locker 434 Samples, Zeus 2014 Samples
 * [The Drebin Dataset](https://www.sec.cs.tu-bs.de/~danarp/drebin/) - The dataset contains 5,560 applications from 179 different malware families. The samples have been collected in the period of August 2010 to October 2012 and were made available to us by the MobileSandbox project.
