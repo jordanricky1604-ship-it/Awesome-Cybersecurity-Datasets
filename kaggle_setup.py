@@ -15,7 +15,7 @@ shutil.copy(
 # Create dataset-metadata.json
 metadata = {
   "title": "Awesome Cybersecurity Datasets (2026)",
-  "id": "jordanricky1604shipit/awesome-cybersecurity-datasets",
+  "id": "rickyjordan/awesome-cybersecurity-datasets",
   "licenses": [
     {
       "name": "CC0-1.0"
