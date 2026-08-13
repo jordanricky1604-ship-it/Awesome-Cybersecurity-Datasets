@@ -6,9 +6,11 @@
 ![Last Updated: 2026](https://img.shields.io/badge/Last%20Updated-2026-blue)
 
 
-> ⚠️ **The original repository was abandoned in 2021. This is the actively maintained fork by SystemHelpdesk. Pull Requests are welcome and reviewed weekly!**
+> 🛡️ **AUTHORITATIVE 2026 FORK**
+> The original Awesome-Cybersecurity-Datasets repository was abandoned in 2021 and left to rot. 
+> This is the **actively maintained, state-of-the-art continuation** by SystemHelpdesk. We have purged dead links and added the critical datasets (LLMs, modern malware, cloud) required for 2026 threat research.
 > 
-> 🌐 **[View the Interactive Version of this Dataset List](https://jordanricky1604-ship-it.github.io/Awesome-Cybersecurity-Datasets/)**
+> 🌐 **[View the Interactive, Searchable Version of this Dataset List](https://jordanricky1604-ship-it.github.io/Awesome-Cybersecurity-Datasets/)**
 
 A curated list of amazingly awesome Cybersecurity datasets. 
 
@@ -40,6 +42,15 @@ Happy learning!
 
 
 
+
+## 🚀 State of the Art (2022-2026 Additions)
+*Since taking over this repository, we have added the following highly-requested datasets that reflect the modern threat landscape:*
+- **[Malware Families Catalog](https://jordanricky1604-ship-it.github.io/malware-families-catalog/)** - 2,899 modern malware families mapped to MITRE ATT&CK.
+- **[Jailbreak_LLMs](https://github.com/verazuo/jailbreak_llms)** - Comprehensive dataset of LLM prompt injections.
+- **[Backstabber's Knife Collection](https://github.com/das-group/bsk-dataset)** - Open-source software supply chain attacks (NPM, PyPI).
+- **[Mordor](https://github.com/OTRF/mordor)** - Cloud-native (AWS/Azure) simulated adversarial events.
+
+---
 ## 🏆 Maintainer's Choice: Featured Dataset
 
 

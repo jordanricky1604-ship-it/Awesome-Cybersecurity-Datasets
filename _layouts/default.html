@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }} | Actively Maintained 2026 Fork</title>
+    
+    <!-- Canonical Tag for SEO -->
+    <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}/" />
+    <meta name="description" content="{{ site.description }}" />
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="{{ site.title }}" />
+    <meta property="og:description" content="{{ site.description }}" />
+    <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}/" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Modern UI Styling (Github Markdown flavor) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+    
+    <!-- JSON-LD Structured Data to dominate rich snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Awesome Cybersecurity Datasets (2026 Edition)",
+      "description": "An actively maintained, authoritative directory of top-tier cybersecurity datasets for malware analysis, red teaming, network forensics, and LLM security.",
+      "url": "{{ site.url }}{{ site.baseurl }}/",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ site.url }}{{ site.baseurl }}/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "SystemHelpdesk",
+        "url": "{{ site.url }}"
+      }
+    }
+    </script>
+    
+    <style>
+      body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 45px;
+        background-color: #f6f8fa;
+      }
+      .markdown-body {
+        background-color: #ffffff;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .header-banner {
+        background: linear-gradient(135deg, #0d1117 0%, #161b22 100%);
+        color: #c9d1d9;
+        padding: 20px;
+        text-align: center;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        border: 1px solid #30363d;
+      }
+      .header-banner h1 {
+        color: #58a6ff;
+        margin-top: 0;
+      }
+      @media (max-width: 767px) {
+        body {
+          padding: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header-banner">
+      <h1>{{ site.title }}</h1>
+      <p><strong>Status:</strong> ACTIVELY MAINTAINED (Updated 2026) | <strong>Publisher:</strong> SystemHelpdesk</p>
+      <p><em>This repository supersedes the abandoned 2021 original by providing state-of-the-art datasets for modern threats.</em></p>
+    </div>
+    <article class="markdown-body">
+      {{ content }}
+    </article>
+    
+    <footer style="text-align: center; margin-top: 40px; color: #57606a;">
+      <p>&copy; 2026 SystemHelpdesk. Hosted on GitHub Pages.</p>
+    </footer>
+  </body>
+</html>
