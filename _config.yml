@@ -1,0 +1,8 @@
+title: Awesome Cybersecurity Datasets
+description: A curated, actively maintained list of amazingly awesome Cybersecurity datasets. Features network traffic, malware, threat intelligence, LLM security, and more.
+theme: jekyll-theme-minimal
+url: "https://jordanricky1604-ship-it.github.io"
+baseurl: "/Awesome-Cybersecurity-Datasets"
+
+plugins:
+  - jekyll-seo-tag
