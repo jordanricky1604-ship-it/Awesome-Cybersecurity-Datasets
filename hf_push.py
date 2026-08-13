@@ -11,7 +11,7 @@ try:
 except Exception as e:
     print(f"Repo creation error (might already exist): {e}")
 
-filepath = r"c:\Users\Nishant Tandon\.gemini\antigravity\scratch\Awesome-Cybersecurity-Datasets\datasets.json"
+filepath = "datasets.json"
 
 print("Uploading datasets.json...")
 api.upload_file(
@@ -44,7 +44,7 @@ To easily search and filter these datasets by category, please visit our officia
 ## Why use this dataset?
 The original 2021 Awesome Cybersecurity Datasets repository was abandoned. We took over active maintenance, purged all the dead links, and mapped everything into this clean JSON format.
 """
-readme_path = r"c:\Users\Nishant Tandon\.gemini\antigravity\scratch\Awesome-Cybersecurity-Datasets\hf_readme.md"
+readme_path = "hf_readme.md"
 with open(readme_path, "w", encoding="utf-8") as f:
     f.write(readme_content)
 

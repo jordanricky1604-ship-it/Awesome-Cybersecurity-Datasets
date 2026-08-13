@@ -3,12 +3,12 @@ import json
 import shutil
 import subprocess
 
-export_dir = r"c:\Users\Nishant Tandon\.gemini\antigravity\scratch\Awesome-Cybersecurity-Datasets\kaggle_export"
+export_dir = "kaggle_export"
 os.makedirs(export_dir, exist_ok=True)
 
 # Copy datasets.json
 shutil.copy(
-    r"c:\Users\Nishant Tandon\.gemini\antigravity\scratch\Awesome-Cybersecurity-Datasets\datasets.json",
+    "datasets.json",
     os.path.join(export_dir, "datasets.json")
 )
 
