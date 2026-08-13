@@ -1,0 +1,39 @@
+name: Meta-Dataset Deployment
+
+on:
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+  push:
+    branches:
+      - master
+    paths:
+      - 'datasets.json' # Only run when the dataset updates
+
+jobs:
+  deploy-to-platforms:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install kaggle huggingface_hub
+
+      - name: Deploy to Kaggle
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+        run: |
+          python kaggle_setup.py
+          kaggle datasets create -p kaggle_export --dir-mode skip || kaggle datasets version -p kaggle_export -m "Automated update from GitHub Actions" --dir-mode skip
+
+      - name: Deploy to Hugging Face
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          python hf_push.py
