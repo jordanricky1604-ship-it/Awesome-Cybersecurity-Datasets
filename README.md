@@ -5,7 +5,10 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Last Updated: 2026](https://img.shields.io/badge/Last%20Updated-2026-blue)
 
+
 > ⚠️ **The original repository was abandoned in 2021. This is the actively maintained fork by SystemHelpdesk. Pull Requests are welcome and reviewed weekly!**
+> 
+> 🌐 **[View the Interactive Version of this Dataset List](https://jordanricky1604-ship-it.github.io/Awesome-Cybersecurity-Datasets/)**
 
 A curated list of amazingly awesome Cybersecurity datasets. 
 
