@@ -25,6 +25,8 @@ Happy learning!
 * [Modern Malware Benchmarks](#modern-malware-benchmarks)
 * [Cloud & Container Security](#cloud--container-security)
 * [Software Supply Chain](#software-supply-chain)
+* [Governance, Risk, and Compliance (C-Suite)](#governance-risk-and-compliance-c-suite)
+
 
 
 ## Datasets
@@ -110,3 +112,8 @@ Happy learning!
 
 ### Software Supply Chain
 * [Backstabber's Knife Collection](https://github.com/das-group/bsk-dataset) - A curated dataset of open-source software supply chain attacks, containing malicious packages collected from NPM, PyPI, and RubyGems.
+
+
+### Governance, Risk, and Compliance (C-Suite)
+* [VERIS Community Database (VCDB)](https://github.com/vz-risk/VCDB) - A public, open-source repository of security incidents documented using the VERIS framework. This dataset powers the annual Verizon Data Breach Investigations Report (DBIR) and is critical for enterprise risk modeling.
+* [CERT Insider Threat Dataset](https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=508099) - Synthetic logs of simulated malicious insider behavior within sociotechnical networks, developed by Carnegie Mellon University (SEI) for User Behavior Analytics (UBA) and insider threat training.
