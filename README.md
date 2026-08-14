@@ -159,3 +159,13 @@ Happy learning!
 
 ### Automotive & IoT Security
 * [Car-Hacking-Dataset](https://github.com/ocslab/car-hacking-dataset) - Famous CAN bus intrusion detection dataset featuring DoS, fuzzy, and spoofing attacks.
+
+### ICS & Critical Infrastructure Security
+* [HAI (HIL-based Augmented ICS) Security Dataset](https://github.com/icsdataset/hai) - Industrial control system operational data collected from a testbed augmented with Hardware-In-the-Loop (HIL) simulators. Contains multiple attack scenarios.
+* [WUSTL-IIOT Dataset](https://www.cse.wustl.edu/~jain/iiot/) - A dataset specifically built to emulate real-world industrial systems, focusing on reconnaissance attacks and network scanning in ICS testbeds.
+* [ICS-Security-Tools/pcaps](https://github.com/ICS-Security-Tools/pcaps) - A massive repository containing a wide variety of PCAP files specifically for ICS/SCADA network traffic, including DNP3, Profinet, and Siemens S7Comm.
+
+### Deepfake & Synthetic Media Detection
+* [DeepfakeBench](https://github.com/SCLBD/DeepfakeBench) - A comprehensive benchmark dataset containing state-of-the-art (SOTA) image and video detection methods for standardized evaluation.
+* [FaceForensics++](https://github.com/ondyari/FaceForensics) - One of the most common datasets, consisting of 1,000 original videos manipulated using Deepfakes, Face2Face, FaceSwap, and NeuralTextures.
+* [Celeb-DF (v2)](https://github.com/yuezunli/celeb-deepfakeforensics) - A large-scale, high-quality dataset containing 590 real videos and 5,639 deepfake videos, known for being extremely challenging due to high visual quality.
