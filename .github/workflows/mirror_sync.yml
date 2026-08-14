@@ -1,0 +1,67 @@
+name: Sync Mirrors to Kaggle and HuggingFace
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  huggingface_sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Inject SEO Backlink for HuggingFace
+        run: |
+          sed -i '1i > 🛡️ **AUTHORITATIVE 2026 FORK & INTERACTIVE CATALOG**\n> This dataset is an official mirror of the curated Awesome Cybersecurity Datasets list.\n> \n> 🌐 **[View the Official Interactive Searchable Catalog](https://jordanricky1604-ship-it.github.io/Awesome-Cybersecurity-Datasets/)**\n> 💻 **[Contribute on the Official GitHub Repository](https://github.com/jordanricky1604-ship-it/Awesome-Cybersecurity-Datasets)**\n' README.md
+
+      - name: Push to HuggingFace
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git clone "https://Jordan123234:${HF_TOKEN}@huggingface.co/datasets/Jordan123234/Awesome-Cybersecurity-Datasets" hf_repo
+          
+          # Copy files (excluding the cloned .git and github workflows)
+          rsync -av --exclude='hf_repo' --exclude='.git' --exclude='.github' . hf_repo/
+          
+          cd hf_repo
+          git add .
+          git commit -m "Automated sync from GitHub" || echo "No changes to commit"
+          git push "https://Jordan123234:${HF_TOKEN}@huggingface.co/datasets/Jordan123234/Awesome-Cybersecurity-Datasets" main
+
+  kaggle_sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Inject SEO Backlink for Kaggle
+        run: |
+          sed -i '1i > 🛡️ **AUTHORITATIVE 2026 FORK & INTERACTIVE CATALOG**\n> This dataset is an official mirror of the curated Awesome Cybersecurity Datasets list.\n> \n> 🌐 **[View the Official Interactive Searchable Catalog](https://jordanricky1604-ship-it.github.io/Awesome-Cybersecurity-Datasets/)**\n> 💻 **[Contribute on the Official GitHub Repository](https://github.com/jordanricky1604-ship-it/Awesome-Cybersecurity-Datasets)**\n' README.md
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install Kaggle CLI
+        run: pip install kaggle
+
+      - name: Generate dataset-metadata.json
+        run: |
+          echo '{
+            "title": "Awesome Cybersecurity Datasets",
+            "id": "rickyjordan/Awesome-Cybersecurity-Datasets",
+            "licenses": [{"name": "MIT"}]
+          }' > dataset-metadata.json
+
+      - name: Push to Kaggle
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+        run: |
+          kaggle datasets version -p . -m "Automated sync from GitHub" --dir-mode skip
