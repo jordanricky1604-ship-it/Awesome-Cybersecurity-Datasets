@@ -147,13 +147,6 @@
         "status": "active"
     },
     {
-        "name": "HTTP DATASET CSIC 2010",
-        "url": "http://web.archive.org/web/20130924222653/http://iec.csic.es/dataset",
-        "description": "The HTTP dataset CSIC 2010 contains thousands of web requests automatically generated. It can be used for the testing of web attack protection systems. It was developed at the Information Security Institute of CSIC (Spanish Research National Council).",
-        "category": "WebApps",
-        "status": "active"
-    },
-    {
         "name": "Common Crawl",
         "url": "http://commoncrawl.org/the-data/get-started/",
         "description": "The Common Crawl corpus contains petabytes of data collected over the last 7 years. It contains raw web page data, extracted metadata and text extractions.",
@@ -340,6 +333,55 @@
         "url": "https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=508099",
         "description": "Synthetic logs of simulated malicious insider behavior within sociotechnical networks, developed by Carnegie Mellon University (SEI) for User Behavior Analytics (UBA) and insider threat training.",
         "category": "Governance, Risk, and Compliance (C-Suite)",
+        "status": "active"
+    },
+    {
+        "name": "LLM Jailbreak Dataset",
+        "url": "https://huggingface.co/datasets/Necent/llm-jailbreak-prompt-injection-dataset",
+        "description": "Hugging Face dataset featuring adversarial prompts and harmful content for testing LLM moderation.",
+        "category": "Generative AI & LLM Security",
+        "status": "active"
+    },
+    {
+        "name": "Kubernetes Dataset",
+        "url": "https://github.com/yigitsever/kubernetes-dataset",
+        "description": "Network flow data of CVE exploits and container escapes in K8s clusters.",
+        "category": "Cloud & Container Security",
+        "status": "active"
+    },
+    {
+        "name": "Cloud Monitoring Dataset",
+        "url": "https://github.com/microsoft/cloud-monitoring-dataset",
+        "description": "Microsoft's massive cloud telemetry dataset for anomaly detection.",
+        "category": "Cloud & Container Security",
+        "status": "active"
+    },
+    {
+        "name": "FORGE-Artifacts",
+        "url": "https://github.com/shenyimings/FORGE-Artifacts",
+        "description": "High-quality curated dataset of smart contract audits and vulnerabilities constructed via LLMs.",
+        "category": "Web3 & Smart Contracts",
+        "status": "active"
+    },
+    {
+        "name": "Smart Contract Vuln Dataset",
+        "url": "https://github.com/CoderDamien/smart-contract-vuln-dataset",
+        "description": "Large-scale Solidity dataset with line-level annotations.",
+        "category": "Web3 & Smart Contracts",
+        "status": "active"
+    },
+    {
+        "name": "SCV-List",
+        "url": "https://github.com/sirhashalot/SCV-List",
+        "description": "Focuses on advanced, unconventional vulnerabilities in DeFi protocols.",
+        "category": "Web3 & Smart Contracts",
+        "status": "active"
+    },
+    {
+        "name": "CIC Datasets",
+        "url": "https://www.unb.ca/cic/datasets/",
+        "description": "The Canadian Institute for Cybersecurity's robust collection of 2024+ PCAP and malware traffic.",
+        "category": "Modern Malware Benchmarks",
         "status": "active"
     }
 ]
