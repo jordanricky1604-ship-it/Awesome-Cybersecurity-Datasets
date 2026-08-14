@@ -135,6 +135,7 @@ Happy learning!
 ### Modern Malware Benchmarks
 * [CIC Datasets](https://www.unb.ca/cic/datasets/) - The Canadian Institute for Cybersecurity's robust collection of 2024+ PCAP and malware traffic.
 * [SOREL-20M](https://github.com/sophos/SOREL-20M) - The Sophos-ReversingLabs 20 Million dataset. Released in late 2020, this is the modern benchmark for training PE malware detection models.
+* [Malware Families Catalog](https://jordanricky1604-ship-it.github.io/malware-families-catalog) - A structured dataset of 2,900+ curated malware families with MITRE ATT&CK mapping and hunting queries. Available in JSONL and Parquet.
 * [BODMAS](https://whyisyoung.github.io/BODMAS/) - Blue Hexagon Open Dataset for Malware Analysis. Features timestamped malware samples and behavioral vectors for temporal drift analysis.
 
 ### Cloud & Container Security
