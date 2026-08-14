@@ -126,11 +126,11 @@ Happy learning!
 
 
 ### Generative AI & LLM Security
-* [LLM Jailbreak Dataset](https://huggingface.co/datasets/Necent/llm-jailbreak-prompt-injection-dataset) - Hugging Face dataset featuring adversarial prompts and harmful content for testing LLM moderation.
-* [Chatbot Prompt Injection](https://github.com/spml/chatbot-prompt-injection) - Real-world system and user prompt interactions labeled for injection attempts.
-* [Multimodal Prompt Injection](https://github.com/multimodal-security/multimodal-prompt-injection-dataset) - Advanced attack vectors including agentic attacks and cross-modal delivery.
-* [Jailbreak_LLMs](https://github.com/verazuo/jailbreak_llms) - A comprehensive dataset of thousands of prompt injection and jailbreak prompts used against Large Language Models in the wild.
-* [LLM-Jailbreak-Classifier](https://huggingface.co/datasets/markush1/LLM-Jailbreak-Classifier-Dataset) - A Hugging Face dataset containing labelled safe and malicious prompts for training LLM guardrails.
+* [Tencent/AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard) - A full-stack AI red teaming platform including modern LLM jailbreak evaluation datasets, agent security scanning, and vulnerability assessments (Updated 2026).
+* [JailbreakBench](https://github.com/JailbreakBench/JailbreakBench) - The industry-standard repository for tracking state-of-the-art LLM jailbreaks and defenses. Features a continuously updated dataset of adversarial prompts.
+* [LLM Jailbreak Taxonomy & Simulation](https://github.com/zakky8/llm-jailbreak-taxonomy) - Contains a taxonomy of 40 modern adversarial attack patterns, experiment notebooks, and simulation harnesses calibrated to 2025-2026 attack success rates.
+* [Jailbreak_LLMs](https://github.com/verazuo/jailbreak_llms) - A massive, highly-cited dataset of 15,140 prompts in the wild, including 1,405 specifically categorized as jailbreak prompts.
+* [Awesome-Jailbreak-on-LLMs](https://github.com/jelliezhong/Awesome-Jailbreak-on-LLMs) - An actively maintained, curated list of research papers, defense frameworks, and detection methods for modern LLMs.
 
 ### Modern Malware Benchmarks
 * [CIC Datasets](https://www.unb.ca/cic/datasets/) - The Canadian Institute for Cybersecurity's robust collection of 2024+ PCAP and malware traffic.
