@@ -39,6 +39,7 @@ Happy learning!
 - [Governance, Risk, and Compliance (C-Suite)](#governance-risk-and-compliance-c-suite)
 - [Web3 & Smart Contracts](#web3--smart-contracts)
 - [Automotive & IoT Security](#automotive--iot-security)
+- [Threat Intelligence & Vulnerability Data](#threat-intelligence--vulnerability-data)
 
 
 
@@ -126,8 +127,10 @@ Happy learning!
 - [LLM Jailbreak Taxonomy & Simulation](https://github.com/zakky8/llm-jailbreak-taxonomy) - Contains a taxonomy of 40 modern adversarial attack patterns, experiment notebooks, and simulation harnesses calibrated to 2025-2026 attack success rates.
 - [Jailbreak_LLMs](https://github.com/verazuo/jailbreak_llms) - A massive, highly-cited dataset of 15,140 prompts in the wild, including 1,405 specifically categorized as jailbreak prompts.
 - [Awesome-Jailbreak-on-LLMs](https://github.com/jelliezhong/Awesome-Jailbreak-on-LLMs) - An actively maintained, curated list of research papers, defense frameworks, and detection methods for modern LLMs.
+- [CIC-SBAN Datasets 2025](https://www.unb.ca/cic/datasets/) - A modern dataset from the Canadian Institute for Cybersecurity focusing specifically on Large Language Model (LLM) security, prompt injection payloads, and model extraction attacks.
 
 ### Modern Malware Benchmarks
+- [EMBER2024](https://github.com/elastic/ember) - Released in 2025, this is a massive update to the original EMBER benchmark. It includes metadata, labels, and features for over 3.2 million files across six formats, specifically designed for training ML models against modern evasive malware.
 - [SOREL-20M](https://github.com/sophos/SOREL-20M) - The Sophos-ReversingLabs 20 Million dataset. Released in late 2020, this is the modern benchmark for training PE malware detection models.
 - [Malware Families Catalog](https://jordanricky1604-ship-it.github.io/malware-families-catalog) - A structured dataset of 2,900+ curated malware families with MITRE ATT&CK mapping and hunting queries. Available in JSONL and Parquet.
 - [BODMAS](https://whyisyoung.github.io/BODMAS/) - Blue Hexagon Open Dataset for Malware Analysis. Features timestamped malware samples and behavioral vectors for temporal drift analysis.
@@ -152,7 +155,12 @@ Happy learning!
 - [SCV-List](https://github.com/sirhashalot/SCV-List) - Focuses on advanced, unconventional vulnerabilities in DeFi protocols.
 
 ### Automotive & IoT Security
+- [CIC-YNU-IoTMal 2026](https://www.unb.ca/cic/datasets/iotmal-2026.html) - A state-of-the-art IoT malware dataset capturing network traffic and host-based telemetry for emerging IoT threats in edge environments.
 - [Car-Hacking-Dataset](https://github.com/ocslab/car-hacking-dataset) - Famous CAN bus intrusion detection dataset featuring DoS, fuzzy, and spoofing attacks.
+
+### Threat Intelligence & Vulnerability Data
+- [CISA Known Exploited Vulnerabilities (KEV) Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) - The authoritative, constantly updated dataset of CVEs that carry active, real-world exploitation evidence. Essential for vulnerability prioritization research.
+- [Cybersecurity Attacks & Defense Dataset 2026](https://www.kaggle.com/datasets) - A curated Kaggle dataset aggregating real-world threat data from 2024–2026, including malicious domains, IPs, and CVE exploit patterns.
 
 ### ICS & Critical Infrastructure Security
 - [HAI (HIL-based Augmented ICS) Security Dataset](https://github.com/icsdataset/hai) - Industrial control system operational data collected from a testbed augmented with Hardware-In-the-Loop (HIL) simulators. Contains multiple attack scenarios.
