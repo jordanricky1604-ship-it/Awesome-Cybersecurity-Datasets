@@ -64,6 +64,7 @@ Happy learning!
 * [User-Computer Authentication Associations in Time](https://csr.lanl.gov/data/auth/) - This anonymized data set encompasses 9 continuous months and represents 708,304,516 successful authentication events from users to computers collected from the Los Alamos National Laboratory (LANL) enterprise network.
 * [Canadian Institute for Cybersecurity datasets](https://www.unb.ca/cic/datasets/index.html) - Canadian Institute for Cybersecurity datasets are used around the world by universities, private industry and independent researchers.
 * [KDD Cup 1999 Data](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html) - This database contains a standard set of data to be audited, which includes a wide variety of intrusions simulated in a military network environment.
+* [NSL-KDD Dataset](https://www.unb.ca/cic/datasets/nsl.html) - Often viewed as the "corrected" version of the original KDD Cup 1999 dataset. It removes the massive number of duplicate records found in the original, providing a more rigorous benchmark.
 * [2017-SUEE-data-set](https://github.com/vs-uulm/2017-SUEE-data-set) - The data sets contain traffic in and out of the web server of the Student Union for Electrical Engineering (Fachbereichsvertretung Elektrotechnik) at Ulm University. Internal hosts are hosts from within the university network, some of them are cable bound, others connect through one of two wifi services on campus (eduroam and welcome). The data was mixed with attack traffic.
 * [CTU-13 Dataset](https://www.stratosphereips.org/datasets-ctu13/) -  A Labeled Dataset with Botnet, Normal and Background traffic.
 * [PCAP files](https://www.netresec.com/index.ashx?page=PcapFiles) - Malware Traffic, Network Forensics, SCADA/ICS Network Captures, Packet Injection Attacks / Man-on-the-Side Attacks...
@@ -86,6 +87,8 @@ Happy learning!
 * [Internet-Wide Scan Data Repository](https://scans.io/) - The Censys Projects publishes daily snapshots of what we know about each IPv4 host, Alexa Top Million website, and known X.509 certificate. These datasets contain structured, non-ephemeral JSON records that identify a host's configuration.
 * [500K HTTP Headers](https://hackertarget.com/500k-http-headers/) - Recently we crawled the Top 500K sites (as ranked by Alexa). Following requests from readers we are making available the HTTP Headers for research purposes.
 * [HTTP DATASET CSIC 2010](http://web.archive.org/web/20130924222653/http://iec.csic.es/dataset) - The HTTP dataset CSIC 2010 contains thousands of web requests automatically generated. It can be used for the testing of web attack protection systems. It was developed at the Information Security Institute of CSIC (Spanish Research National Council).
+* [OpenAppSec WAF Comparison Dataset](https://github.com/openappsec/openappsec) - A modern dataset of millions of requests and tens of thousands of malicious payloads explicitly designed to test modern WAF evasion techniques.
+* [30-Day ModSecurity Production Dataset](https://github.com/hslatman/awesome-industrial-control-system-security) - Real malicious HTTP requests blocked by the OWASP ModSecurity Core Rule Set (CRS) on a live production server.
 * [Common Crawl](http://commoncrawl.org/the-data/get-started/) - The Common Crawl corpus contains petabytes of data collected over the last 7 years. It contains raw web page data, extracted metadata and text extractions.
 * [AZSecure-data](https://www.azsecure-data.org/get-data.html) - The AZSecure-data PORTAL currently provides access to Web forums, Internet phishing websites, Twitter data, and other data.
 
@@ -94,6 +97,8 @@ Happy learning!
 * [Feodo Tracker](https://feodotracker.abuse.ch/) - List of Feodo botnet C&C servers
 * [URLhaus](https://urlhaus.abuse.ch/api/) - URLhaus is a project from abuse.ch with the goal of sharing malicious URLs that are being used for malware distribution.
 * [Alexa Top 1 Million](http://s3.amazonaws.com/alexa-static/top-1m.csv.zip) - CSV dataset with the most popular sites by Alexa.
+* [Tranco List](https://tranco-list.eu/) - The modern academic standard replacing Alexa. It provides a hardened, daily-updated ranking by aggregating Cloudflare, Chrome UX, and other sources to prevent manipulation.
+* [Cloudflare Radar Domain Rankings](https://radar.cloudflare.com/domains) - Based on live 1.1.1.1 resolver data, highly relevant for modern traffic popularity.
 * [OpenDNS Top Domains List](https://github.com/opendns/public-domain-lists) - The OpenDNS Top Domains List is the top 10,000 domain names our resolvers all over the globe are receiving queries for, sorted by popularity.
 * [StopForumSpam](https://www.stopforumspam.com/downloads) - The data provided here represents what we believe will only ever ben used to abuse. IP Addresses, domains and usernames listed here will be returned in API results as "blacklisted".
 
@@ -120,6 +125,8 @@ Happy learning!
 
 ### Passwords
 * [Yahoo Password Frequency Corpus](https://figshare.com/articles/Yahoo_Password_Frequency_Corpus/2057937) - This dataset includes sanitized password frequency lists collected from Yahoo in May 2011.
+* [RockYou2024](https://github.com/danielmiessler/SecLists) - A massive compilation of nearly 10 billion plaintext credentials aggregated from thousands of recent data breaches. It is the absolute standard for penetration testing wordlists.
+* [Have I Been Pwned (Pwned Passwords)](https://haveibeenpwned.com/Passwords) - The industry-standard k-anonymity dataset for checking breached credentials securely without exposing passwords.
 
 ### MISC
 * [SecRepo](http://www.secrepo.com/) - Samples of Security Related Data.
