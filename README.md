@@ -19,27 +19,30 @@ Happy learning!
 
 ## Contents
 - [🏆 Maintainer's Choice: Featured Dataset](#-maintainers-choice-featured-dataset)
-- [Network traffic](#network-traffic)
-- [Malware](#malware)
-- [WebApps](#webapps)
-- [Software](#software)
-- [URLs & Domain Names](#urls--domain-names)
-- [Host](#host)
-- [Email](#email)
-- [Fraud](#fraud)
-- [Honeypots](#honeypots)
-- [Binaries](#binaries)
-- [Phishing](#phising)
-- [Passwords](#passwords)
-- [MISC](#misc)
-- [Generative AI & LLM Security](#generative-ai--llm-security)
-- [Modern Malware Benchmarks](#modern-malware-benchmarks)
-- [Cloud & Container Security](#cloud--container-security)
-- [Software Supply Chain](#software-supply-chain)
-- [Governance, Risk, and Compliance (C-Suite)](#governance-risk-and-compliance-c-suite)
-- [Web3 & Smart Contracts](#web3--smart-contracts)
-- [Automotive & IoT Security](#automotive--iot-security)
-- [Threat Intelligence & Vulnerability Data](#threat-intelligence--vulnerability-data)
+- [Datasets](#datasets)
+  - [Network traffic](#network-traffic)
+  - [Malware](#malware)
+  - [Software](#software)
+  - [WebApps](#webapps)
+  - [URLs & Domain Names](#urls--domain-names)
+  - [Host](#host)
+  - [Email](#email)
+  - [Fraud](#fraud)
+  - [Honeypots](#honeypots)
+  - [Binaries](#binaries)
+  - [Phishing](#phishing)
+  - [Passwords](#passwords)
+  - [MISC](#misc)
+  - [Generative AI & LLM Security](#generative-ai--llm-security)
+  - [Modern Malware Benchmarks](#modern-malware-benchmarks)
+  - [Cloud & Container Security](#cloud--container-security)
+  - [Software Supply Chain](#software-supply-chain)
+  - [Governance, Risk, and Compliance (C-Suite)](#governance-risk-and-compliance-c-suite)
+  - [Web3 & Smart Contracts](#web3--smart-contracts)
+  - [Automotive & IoT Security](#automotive--iot-security)
+  - [Threat Intelligence & Vulnerability Data](#threat-intelligence--vulnerability-data)
+  - [ICS & Critical Infrastructure Security](#ics--critical-infrastructure-security)
+  - [Deepfake & Synthetic Media Detection](#deepfake--synthetic-media-detection)
 
 
 
@@ -127,7 +130,7 @@ Happy learning!
 - [LLM Jailbreak Taxonomy & Simulation](https://github.com/zakky8/llm-jailbreak-taxonomy) - Contains a taxonomy of 40 modern adversarial attack patterns, experiment notebooks, and simulation harnesses calibrated to 2025-2026 attack success rates.
 - [Jailbreak_LLMs](https://github.com/verazuo/jailbreak_llms) - A massive, highly-cited dataset of 15,140 prompts in the wild, including 1,405 specifically categorized as jailbreak prompts.
 - [Awesome-Jailbreak-on-LLMs](https://github.com/jelliezhong/Awesome-Jailbreak-on-LLMs) - An actively maintained, curated list of research papers, defense frameworks, and detection methods for modern LLMs.
-- [CIC-SBAN Datasets 2025](https://www.unb.ca/cic/datasets/) - A modern dataset from the Canadian Institute for Cybersecurity focusing specifically on Large Language Model (LLM) security, prompt injection payloads, and model extraction attacks.
+- [CIC-SBAN Datasets 2025](https://www.unb.ca/cic/datasets/#sban-2025) - A modern dataset from the Canadian Institute for Cybersecurity focusing specifically on Large Language Model (LLM) security, prompt injection payloads, and model extraction attacks.
 
 ### Modern Malware Benchmarks
 - [EMBER2024](https://github.com/elastic/ember) - Released in 2025, this is a massive update to the original EMBER benchmark. It includes metadata, labels, and features for over 3.2 million files across six formats, specifically designed for training ML models against modern evasive malware.
