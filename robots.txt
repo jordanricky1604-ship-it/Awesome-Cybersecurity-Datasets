@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jordanricky1604-ship-it.github.io/Awesome-Cybersecurity-Datasets/sitemap.xml

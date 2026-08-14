@@ -1,5 +1,6 @@
-# Awesome-Cybersecurity-Datasets 
+# Awesome Cybersecurity Datasets 
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![Active Maintenance](https://img.shields.io/badge/Maintenance-Active-success)
 ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
