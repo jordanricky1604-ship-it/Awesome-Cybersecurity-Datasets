@@ -11,7 +11,10 @@
 > The original Awesome-Cybersecurity-Datasets repository was abandoned in 2021 and left to rot. 
 > This is the **actively maintained, state-of-the-art continuation** by SystemHelpdesk. We have purged dead links and added the critical datasets (LLMs, modern malware, cloud) required for 2026 threat research.
 > 
-> 🌐 **[View the Interactive, Searchable Version of this Dataset List](https://jordanricky1604-ship-it.github.io/Awesome-Cybersecurity-Datasets/)**
+> 🌐 **[View the Interactive, Searchable Version](https://jordanricky1604-ship-it.github.io/Awesome-Cybersecurity-Datasets/)**
+> 🤗 **[HuggingFace Dataset Mirror](https://huggingface.co/Jordan123234)**
+> 📊 **[Kaggle Dataset Mirror](https://www.kaggle.com/rickyjordan)**
+> 📝 **[Dev.to Technical Guides](https://dev.to/jordanricky1604-ship-it)**
 
 A curated list of amazingly awesome Cybersecurity datasets. 
 
