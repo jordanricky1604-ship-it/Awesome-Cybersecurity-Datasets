@@ -383,5 +383,40 @@
         "description": "The Canadian Institute for Cybersecurity's robust collection of 2024+ PCAP and malware traffic.",
         "category": "Modern Malware Benchmarks",
         "status": "active"
+    },
+    {
+        "name": "AndroZoo",
+        "url": "https://androzoo.uni.lu/",
+        "description": "The absolute gold standard for mobile security research. Contains over 20 million Android applications (APKs) sourced from multiple markets, analyzed by dozens of anti-virus products.",
+        "category": "Malware",
+        "status": "active"
+    },
+    {
+        "name": "IoT-23 Dataset",
+        "url": "https://www.stratosphereips.org/datasets-iot23",
+        "description": "A massive benchmark consisting of 20 malicious PCAP captures of real IoT malware (like Mirai and Torii) executing on actual IoT hardware, plus 3 benign captures.",
+        "category": "Automotive & IoT Security",
+        "status": "active"
+    },
+    {
+        "name": "AWID (Aegean WiFi Intrusion Dataset)",
+        "url": "http://icsdweb.aegean.gr/awid/",
+        "description": "The most comprehensive public dataset specifically dedicated to wireless network intrusions. Contains millions of labeled 802.11 MAC layer frames capturing WEP/WPA cracking, rogue APs, etc.",
+        "category": "Network traffic",
+        "status": "active"
+    },
+    {
+        "name": "DEF CON CTF Network Traffic",
+        "url": "https://www.defcon.org/html/links/dc-torrent.html",
+        "description": "Full PCAP network traffic from DEF CON Capture The Flag competitions. Incredible for analyzing zero-day exploits and active red-team vs. blue-team network warfare.",
+        "category": "Network traffic",
+        "status": "active"
+    },
+    {
+        "name": "The Enron Email Corpus",
+        "url": "http://www.cs.cmu.edu/~enron/",
+        "description": "The absolute foundation for digital forensics, e-discovery, and insider-threat detection. Contains half a million emails from Enron executives prior to the company's collapse.",
+        "category": "Email",
+        "status": "active"
     }
 ]

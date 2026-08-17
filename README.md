@@ -53,6 +53,8 @@ Happy learning!
 
 ## Datasets
 ### Network traffic
+- [DEF CON CTF Network Traffic](https://www.defcon.org/html/links/dc-torrent.html) - Full PCAP network traffic from DEF CON Capture The Flag competitions. Incredible for analyzing zero-day exploits and active red-team vs. blue-team network warfare.
+- [AWID (Aegean WiFi Intrusion Dataset)](http://icsdweb.aegean.gr/awid/) - The most comprehensive public dataset specifically dedicated to wireless network intrusions. Contains millions of labeled 802.11 MAC layer frames capturing WEP/WPA cracking, rogue APs, etc.
 - [Comprehensive, Multi-Source Cyber-Security Events](https://csr.lanl.gov/data/cyber1/) - This data set represents 58 consecutive days of de-identified event data collected from five sources within Los Alamos National Laboratory's corporate, internal computer network.
 - [User-Computer Authentication Associations in Time](https://csr.lanl.gov/data/auth/) - This anonymized data set encompasses 9 continuous months and represents 708,304,516 successful authentication events from users to computers collected from the Los Alamos National Laboratory (LANL) enterprise network.
 - [Canadian Institute for Cybersecurity datasets](https://www.unb.ca/cic/datasets/index.html) - Used around the world by universities, private industry and independent researchers.
@@ -65,6 +67,7 @@ Happy learning!
 - [Project Sonar](https://github.com/rapid7/sonar/wiki/UDP) - Produces multiple UDP datasets every month. This data is gathered by sending protocol-specific UDP probes across the entire IPv4 address space. The types of probes sent each week continues to expand as the project matures.
 
 ### Malware
+- [AndroZoo](https://androzoo.uni.lu/) - The absolute gold standard for mobile security research. Contains over 20 million Android applications (APKs) sourced from multiple markets, analyzed by dozens of anti-virus products.
 - [UNSW-NB15 data set](https://www.unsw.adfa.edu.au/unsw-canberra-cyber/cybersecurity/ADFA-NB15-Datasets/) - This data set has nine families of attacks, namely, Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode and Worms. The Argus, Bro-IDS tools are utilised and twelve algorithms are developed to generate totally 49 features with the class label.
 - [Malware Training Sets](https://marcoramilli.blogspot.com/2016/12/malware-training-sets-machine-learning.html) - Today (please refers to blog post date) the collected classified datasets is composed by the following samples: APT1 292 Samples, Crypto 2024 Samples, Locker 434 Samples, Zeus 2014 Samples.
 - [The Drebin Dataset](https://www.sec.cs.tu-bs.de/~danarp/drebin/) - The dataset contains 5,560 applications from 179 different malware families. The samples have been collected in the period of August 2010 to October 2012 and were made available to us by the MobileSandbox project.
@@ -101,6 +104,7 @@ Happy learning!
 - [Aktaion2 Data](https://github.com/jzadeh/aktaion2/tree/master/data) - The project is meant to be a learning/teaching tool on how to blend multiple security signals and behaviors into an expressive framework for intrusion detection.
 
 ### Email
+- [The Enron Email Corpus](http://www.cs.cmu.edu/~enron/) - The absolute foundation for digital forensics, e-discovery, and insider-threat detection. Contains half a million emails from Enron executives prior to the company's collapse.
 
 ### Fraud
 - [Credit Card Fraud](https://www.kaggle.com/samkirkiles/credit-card-fraud/data) - The datasets contains transactions made by credit cards in September 2013 by european cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
@@ -158,6 +162,7 @@ Happy learning!
 - [SCV-List](https://github.com/sirhashalot/SCV-List) - Focuses on advanced, unconventional vulnerabilities in DeFi protocols.
 
 ### Automotive & IoT Security
+- [IoT-23 Dataset](https://www.stratosphereips.org/datasets-iot23) - A massive benchmark consisting of 20 malicious PCAP captures of real IoT malware (like Mirai and Torii) executing on actual IoT hardware, plus 3 benign captures.
 - [CIC-YNU-IoTMal 2026](https://www.unb.ca/cic/datasets/iotmal-2026.html) - A state-of-the-art IoT malware dataset capturing network traffic and host-based telemetry for emerging IoT threats in edge environments.
 - [Car-Hacking-Dataset](https://github.com/ocslab/car-hacking-dataset) - Famous CAN bus intrusion detection dataset featuring DoS, fuzzy, and spoofing attacks.
 
