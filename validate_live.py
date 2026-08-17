@@ -1,7 +1,7 @@
 import urllib.request
 import json
 try:
-    url = 'https://jordanricky1604-ship-it.github.io/Awesome-Cybersecurity-Datasets/datasets.json'
+    url = 'https://jordanricky1604-ship-it.github.io/awesome-cybersecurity-datasets/datasets.json'
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     r = urllib.request.urlopen(req)
     data = json.loads(r.read().decode('utf-8'))
