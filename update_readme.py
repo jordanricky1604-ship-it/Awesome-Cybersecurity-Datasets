@@ -1,4 +1,5 @@
 import os
+import subprocess
 
 with open('README.md', 'r', encoding='utf-8') as f:
     content = f.read()
@@ -36,3 +37,8 @@ with open('README.md', 'w', encoding='utf-8') as f:
     f.write(content)
 
 print('README.md updated successfully.')
+
+# 3. Automatically bump the sitemap date
+if os.path.exists('bump_sitemap.py'):
+    print('Bumping sitemap date...')
+    subprocess.run(['python', 'bump_sitemap.py'])
